@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,900;1,200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.section-main {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: url(download.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-main h1 {
+    color: cornsilk;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    line-height: 80px;
+}
+
+header {
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: ;
+    padding: 20px 100px;
+}
+
+header .brand {
+    color: antiquewhite;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700px;
+    letter-spacing: 2px;
+}
+
+header .menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: ;
+}
+
+header .menu a{
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 0 30px;
+    padding: 0 10px;
+    border-radius: 20px;
+    height: fit-content;
+    transition: 0.5s;
+}
+
+header .menu a:hover {
+    color: rgb(201, 47, 173);
+    background-color: white;
+}
+
+header .btn {
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    cursor: pointer;
+    display: none;
+}
+
+/*.nav {
+width: 60%;
+padding: 20px 0;
+text-align: center;
+background-color: grey;
+margin: 34px 15px;
+align-self: center;
+}
+.nav_ul {
+margin: 10px;
+width: 100%;
+}
+
+.nav_ul li  {
+    display: inline-block;
+    list-style: none;
+    color: black;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}*/
